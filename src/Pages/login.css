@@ -1,0 +1,63 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-image{
+  height: 100vh;
+  border-radius: 5px;
+}
+
+.head{
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.welcome{
+  font-size: 1.3rem;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 3%;
+}
+
+.row, .col{
+  margin: 0;
+  padding: 0;
+}
+
+.form, .head, .welcome{
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+.input{
+  border: 1px solid #828282;
+  border-radius: 20px;
+  height: 2.2rem;
+  font-size: 0.8rem;
+}
+
+.forgot{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+}
+
+.login{
+  border-radius: 20px;
+  background-color: #A663E3;
+  color: #fff;
+  border: 1px solid #A663E3;
+  height: 2rem;
+}
+
+.logo{
+  width: 7rem;
+  margin: 15% auto 5%;
+  display: block;
+}
+
+.form{
+  padding: auto 10%;
+}

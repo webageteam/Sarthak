@@ -1,0 +1,50 @@
+.record{
+  width: 25%;
+  margin: 0 2% 1% 9%;
+  padding: 1.5% 1%;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #888;
+  /* display: inline-block; */
+}
+
+.row{
+  margin: 0;
+}
+
+.number{
+  font-size: 1.7rem;
+}
+
+.month, .number-text{
+  font-size: 0.8rem
+}
+
+.apply, .manage{
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 3% 2%;
+}
+
+.apply{
+  background-color: #f3d4ff;
+  border-color: #f3d4ff;
+}
+
+.apply:hover{
+  background-color: #f3b5ff;
+}
+
+.manage{
+  background-color: white;
+}
+
+.manage:hover{
+  background-color: #eee;
+}
+
+.button-col{
+  margin: auto 5%;
+}

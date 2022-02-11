@@ -1,0 +1,54 @@
+.sidenav{
+  height: 100%;
+  width: 7%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 5px 0px 20px #f3d4ff;
+  background-color: white;
+  transition: .5s ease;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 2% 1% 1%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo-nav{
+  width: 100%;
+}
+
+.icons{
+  margin: 10% auto;
+  padding: 15% 3%;
+  border: solid 1px #eee;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 3px 0 10px #f3d4ff;
+}
+
+.icons:hover{
+  color: black;
+  background-color: #f3d4ff;
+}
+
+.dashboard{
+  margin-top: 70%;
+}
+
+.training{
+  margin-bottom: 50%;
+}
+
+.logout{
+  margin-top: 90%;
+}
+
+@media screen and (max-width: 992px) {
+  .sidenav{
+    width: 10%;
+  }
+}

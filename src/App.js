@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Switch, Route, withRouter } from 'react-router';
+import Login from './Pages/Login.js'
+import Dashboard from './Pages/Dashboard.js';
+import Profile from './Pages/Profile.js';
+import Nav from "./Components/Nav.js";
 
-function App() {
+const App = withRouter(({ location }) => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route exact path="/">
+          <Login title="Login" />
+        </Route>
+        <Route path="/dashboard">
+          <Dashboard title="Dashboard" />
+        </Route>
+        <Route path="/profile">
+          <Profile title="Profile" />
+        </Route>
+      </Switch>
+
+      {location.pathname !== '/' && <Nav />}
     </div>
   );
-}
+});
 
 export default App;
