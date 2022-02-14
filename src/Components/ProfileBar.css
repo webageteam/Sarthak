@@ -1,0 +1,54 @@
+.user-image{
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+}
+
+.profile{
+  position: absolute;
+  width: 30%;
+  top: 2%;
+  right: 3%;
+}
+
+.user-name, .user-role{
+  display: block;
+  font-size: 1.125rem;
+}
+
+.profile-button{
+  padding: 0;
+}
+
+.user-description{
+  padding: 10% 20%;
+}
+
+.notifications{
+  padding: 0 10% 0 10%;
+  overflow-y: scroll;
+  height: 20rem;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track-piece  {
+  background-color: #F5F1F1;
+  border: 1px solid #F5F1F1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  border: 1px solid #F5F1F1;
+  border-radius: 10px;
+  background-color: #f3b5ff;
+}
+
+.notification-head{
+  font-size: 1.5rem;
+  display: block;
+  font-weight: 600;
+}

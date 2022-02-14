@@ -1,0 +1,30 @@
+.notification-layout{
+  background: #F9E9FF;
+  border-radius: 10px;
+  padding: 3% 5%;
+  margin: 3% 0;
+  text-align: left;
+}
+
+.notification-text{
+  font-size: 1rem;
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+
+.notification-details{
+  display: flex;
+}
+
+.notification-desc{
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.notification-time{
+  font-size: 0.875rem;
+  text-align: right;
+  font-weight: 300;
+}

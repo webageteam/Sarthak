@@ -9,8 +9,8 @@ function Record(props){
   const month = arr[d.getMonth()];
 
   return(
-    <div className="record">
-      <h4 className="com-head">{props.heading}</h4>
+    <div className="record box-layout">
+      <h4 className="record-head">{props.heading}</h4>
       <p className="month">{month}</p>
       <Row>
         <Col>

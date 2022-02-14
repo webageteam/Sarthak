@@ -1,7 +1,22 @@
-.date-time{
-  padding: 3%;
+.working-text{
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+
+.box-layout{
+  text-align: center;
   background: linear-gradient(125.75deg, rgba(249, 233, 255, 0.38) 11.55%, rgba(249, 233, 255, 0.1) 65.4%);
   box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(20px);
   border-radius: 20px;
+}
+
+.working-div{
+  padding: 4%;
+}
+
+.working-timing{
+  font-weight: 300;
+  font-size: 1.5rem;
 }
