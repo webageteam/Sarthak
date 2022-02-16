@@ -1,7 +1,33 @@
+.fields, .values{
+  margin-top: 3%;
+}
+
 .profile-field{
   display: block;
+  margin-bottom: 3%;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.profile-head{
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+.profile-page{
+  margin: 5% 0 0 9%;
+  width: 90%;
 }
 
 .profile-value{
   display: block;
+  margin-bottom: 3%
+}
+
+.profile-page-button{
+  margin: 5% 0;
+}
+
+.profile-page-description{
+  width: 25%;
 }

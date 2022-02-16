@@ -12,7 +12,7 @@ function Profile(){
         <span className="user-name">David Parker</span>
         <span className="user-role">Senior Ux Ui designer</span>
         <NavLink to="/profile">
-          <button className="btn manage profile-button" href="/profile">View Profile</button>
+          <button className="btn manage profile-button">View Profile</button>
         </NavLink>
       </div>
       <div>

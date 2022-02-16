@@ -1,0 +1,41 @@
+.refer-value{
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 0 1%;
+  width: 21.875rem;
+  height: 2rem;
+  display: block;
+}
+
+.refer-field{
+  margin: 1% 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.refer-form{
+  margin-top: 3%;
+}
+
+.file-input{
+  width: 48.75rem;
+  padding: 0;
+  margin-bottom: 1%;
+}
+
+.comment{
+  width: 48.75rem;
+  height: 4.75rem;
+}
+
+.refer-button{
+  margin-top: 1%;
+  width: 12rem;
+  height: 3rem;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.refer-button:hover{
+  background-color: #eee;
+}

@@ -1,0 +1,31 @@
+.side-profile{
+  position: absolute;
+  right: 4%;
+  top: 4%;
+  border: 1px solid white;
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  width: 14rem;
+  height: 4rem;
+  border-radius: 10px;
+  color: black;
+}
+
+.side-profile-description{
+  padding: 3%;
+}
+
+.side-profile-image{
+  border-radius: 100%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.side-profile-name{
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.side-profile-designation{
+  display: block;
+  font-size: 0.875rem;
+}

@@ -4,6 +4,7 @@ import { Switch, Route, withRouter } from 'react-router';
 import Login from './Pages/Login.js'
 import Dashboard from './Pages/Dashboard.js';
 import Profile from './Pages/Profile.js';
+import Refer from './Pages/Refer.js';
 import Nav from "./Components/Nav.js";
 
 const App = withRouter(({ location }) => {
@@ -18,6 +19,9 @@ const App = withRouter(({ location }) => {
         </Route>
         <Route path="/profile">
           <Profile title="Profile" />
+        </Route>
+        <Route path="/refer">
+          <Refer title="Refer" />
         </Route>
       </Switch>
 
