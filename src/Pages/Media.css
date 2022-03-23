@@ -1,0 +1,40 @@
+.media-sub-head{
+  display: block;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 1%;
+}
+
+.courses-section{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1%;
+}
+
+.more{
+  text-align: center;
+  background-color: #E997E0;
+  width: 12%;
+  margin: auto;
+  border-radius: 0.625rem;
+  margin-top: 5%;
+  padding: 0 0.5%;
+  cursor: pointer;
+}
+
+.expand-more-text{
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.expand-more{
+  display: inline;
+}
+
+.all-courses-section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 1%;
+  flex: 2 0 21%;
+}

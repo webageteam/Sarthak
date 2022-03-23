@@ -3,5 +3,5 @@
   background: linear-gradient(125.75deg, rgba(249, 233, 255, 0.38) 11.55%, rgba(249, 233, 255, 0.1) 65.4%);
   box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(20px);
-  border-radius: 20px;
+  border-radius: 0.7rem;
 }

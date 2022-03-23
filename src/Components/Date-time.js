@@ -11,15 +11,17 @@ function DateTime(){
   const date = d.getDate();
   const year = d.getFullYear();
 
-  const defaultTime = d.toLocaleTimeString();
+  const [defaultTime, setDefaultTime] = useState(d.toLocaleTimeString());
 
-  // const changeTime = () => {
-  //   setDefaultTime(d.toLocaleTimeString());
-  // }
-  //
-  // useEffect(() => {
-  //   changeTime();
-  // }, []);
+  // const defaultTime = d.toLocaleTimeString();
+
+  const changeTime = () => {
+    setDefaultTime(d.toLocaleTimeString());
+  }
+
+  useEffect(() => {
+    changeTime();
+  });
 
   return(
     <div className="date-time">

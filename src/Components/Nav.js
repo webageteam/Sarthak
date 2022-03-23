@@ -10,12 +10,13 @@ import PendingActionsIcon from '@mui/icons-material/PendingActions';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import LogoutIcon from '@mui/icons-material/Logout';
 import Tooltip from '@mui/material/Tooltip';
+import { logout } from "../firebase/config";
 // tooltip
 
 function Nav(){
   return(
     <div className="sidenav">
-      <img className="logo-nav" src="./logo.jpg" />
+      <img className="logo-nav" src="./images/logo.jpg" />
       <NavLink fontSize="small" className="icons dashboard" to="/dashboard">
         <DashboardIcon />
       </NavLink>
@@ -34,7 +35,7 @@ function Nav(){
       <NavLink fontSize="small" className="icons training" to="/training">
         <AssignmentIcon />
       </NavLink>
-      <NavLink className="icons logout" to="/">
+      <NavLink className="icons logout" to="/" onClick={logout}>
         <LogoutIcon />
       </NavLink>
     </div>

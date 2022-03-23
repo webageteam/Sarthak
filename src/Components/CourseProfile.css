@@ -1,0 +1,71 @@
+.course-profile-container{
+  width: 20.3113rem;
+  height: 16.7rem;
+  background: linear-gradient(125.75deg, rgba(249, 233, 255, 0.38) 11.55%, rgba(249, 233, 255, 0.1) 65.4%);
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.25rem;
+  position: relative;
+  margin: 1% auto;
+}
+
+.course-profile-image{
+  width: 19.688rem;
+  position: absolute;
+  top: 1.5%;
+  left: 1.5%;
+}
+
+.course-profile-image:hover, .course-profile-container:hover{
+  cursor: pointer;
+}
+
+.play-button-image{
+  visibility: hidden;
+  width: 3.75rem;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.watch-later-image{
+  width: 1.5rem;
+  position: absolute;
+  right: 4%;
+  top: 4%;
+  border-radius: 100%;
+}
+
+.course-name{
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding-left: 5%;
+}
+
+.course-detail{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.more-vert{
+  text-align: right;
+  display: inline;
+  margin-left: 20%;
+}
+
+.followed-text{
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 5%;
+}
+
+.days{
+  font-size: 0.75rem;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.course-profile-top{
+  height: 11.831rem;
+  margin-bottom: 3%;
+}

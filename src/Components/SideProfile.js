@@ -8,7 +8,7 @@ function SideProfile(){
     <NavLink to="/profile">
     <Row className="side-profile" href="/profile">
       <Col lg={4}>
-        <img className="side-profile-image" src="./user-image.jpg" />
+        <img className="side-profile-image" src="./images/user-image.jpg" />
       </Col>
       <Col lg={8} className="side-profile-description">
         <span className="side-profile-name">David</span>

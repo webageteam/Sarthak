@@ -1,0 +1,48 @@
+.training-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-section, .search{
+  display: flex;
+  margin-top: 0.5%;
+}
+
+.search{
+  position: relative;
+}
+
+.search-input{
+  width: 45rem;
+  height: 4rem;
+  border: 1px solid #000;
+  padding-left: 3%;
+  border-radius: 1.125rem;
+}
+
+.search-icon{
+  width: 6.5rem;
+  height: 3.5rem;
+  padding: 0;
+  border: none;
+  position: absolute;
+  left: 38rem;
+  top: 0.25rem;
+  background: linear-gradient(125.75deg, rgba(249, 233, 255, 0.38) 11.55%, rgba(249, 233, 255, 0.1) 65.4%);
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.125rem;
+}
+
+.top-section-button{
+  height: 3.063rem;
+  background-color: #E997E0;
+  margin: 6% 0;
+  border-radius: 0.625rem;
+  border: none;
+  font-size: 1.125rem;
+}
+
+.training-link{
+  padding-left: 2%;
+  padding-right: 2%;
+}

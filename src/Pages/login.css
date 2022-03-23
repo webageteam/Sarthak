@@ -2,6 +2,88 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.google-logo{
+  width: 100%;
+}
+
+.image-div{
+  display: flex;
+  padding: 9% 5% 0;
+  justify-content:center;
+}
+
+.login__textBox {
+  padding: 3% 5%;
+  font-weight: 300;
+  border: 1px solid #888;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  margin-bottom: 2%;
+}
+
+.label{
+  text-align: left;
+  margin: 4% 0 2%;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.forgot{
+  text-align: right;
+  font-weight: 300;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+  margin: 0 0 5%;
+}
+
+.register_button {
+  font-weight: 700;
+  font-size: 0.7rem;
+  margin: 2% 0;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.register_button{
+  background-color: #eee;
+  color: black;
+}
+
+.register_button:hover{
+  background-color: #ddd;
+}
+
+.login__google {
+  height: 2rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-top: 3%;
+  background-color: white;
+  border: 1px solid #989898;
+  color: black;
+}
+
+.login-text{
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 3%;
+  color: #828282;
+}
+
+.login__google:hover{
+  background-color: #eee;
+}
+
 .login-image{
   height: 100vh;
   border-radius: 5px;
@@ -35,20 +117,22 @@
   border: 1px solid #828282;
   border-radius: 20px;
   height: 2.2rem;
-  font-size: 0.8rem;
-}
-
-.forgot{
-  display: flex;
-  justify-content: flex-end;
+  padding-left: 4%;
   font-size: 0.8rem;
 }
 
 .login{
-  border-radius: 20px;
   background-color: #A663E3;
   color: #fff;
   border: 1px solid #A663E3;
+}
+
+.login:hover{
+  background-color: #A663D3;
+}
+
+.login_page_buttons{
+  border-radius: 20px;
   height: 2rem;
 }
 
@@ -56,8 +140,4 @@
   width: 7rem;
   margin: 15% auto 5%;
   display: block;
-}
-
-.form{
-  padding: auto 10%;
 }

@@ -4,12 +4,12 @@ import Notification from './Notification';
 import { NavLink } from "react-router-dom";
 import "./ProfileBar.css";
 
-function Profile(){
+function Profile(props){
   return(
     <div className="box-layout profile">
       <div className="user-description">
-        <img className="user-image" src="./user-image.jpg" alt="image"/>
-        <span className="user-name">David Parker</span>
+        <img className="user-image" src="./images/user-image.jpg" alt="image"/>
+        <span className="user-name">{props.name}</span>
         <span className="user-role">Senior Ux Ui designer</span>
         <NavLink to="/profile">
           <button className="btn manage profile-button">View Profile</button>

@@ -9,7 +9,7 @@ function Profile(){
       <span className="profile-head">Profile</span>
       <div className="box-layout profile profile-page-description">
         <div className="user-description">
-          <img className="user-image" src="./user-image.jpg" alt="image"/>
+          <img className="user-image" src="./images/user-image.jpg" alt="image"/>
           <span className="user-name mt-3 mb-3">David Parker</span>
           <span className="user-role mb-3">Senior Ux Ui designer</span>
           <NavLink to="/profile">

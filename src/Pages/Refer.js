@@ -1,12 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import SideProfile from '../Components/SideProfile';
 import './Refer.css';
 
 function Refer(){
   return(
     <div className="profile-page">
-      <SideProfile />
       <span class="profile-head">Refer-Someone</span>
       <form action="" className="refer-form">
         <Row>
@@ -46,7 +44,7 @@ function Refer(){
           <input type="file" className="file-input refer-value"/>
           <input type="text" className="comment refer-value" placeholder="Comments" />
         </div>
-        <button className="btn btn-lg refer-button">Refer</button>
+        <button type="submit" name="submit" className="btn btn-lg refer-button">Refer</button>
       </form>
     </div>
   )
